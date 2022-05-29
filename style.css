@@ -16,6 +16,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /* *************** Padrão Cabeçalho **************** */
@@ -76,6 +77,10 @@ header h1 {
   background-color: black;
 
   padding-block: 4rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .num-escolha h3 {
@@ -127,6 +132,9 @@ button {
 }
 
 /* *************** Conteudo Agua **************** */
+.conteudo-agua .subtitulo {
+  background-color: #45abe1;
+}
 
 .botao-agua {
   background-color: #45abe1;
