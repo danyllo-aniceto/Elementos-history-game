@@ -1,17 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Press+Start+2P&family=Shadows+Into+Light&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+/* *************** Padrão **************** */
 * {
   margin: 0;
   padding: 0;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* *************** Padrão Cabeçalho **************** */
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 
-  padding-block: 30px;
+  padding-block: 3rem;
 
   background-color: black;
 }
@@ -19,29 +33,131 @@ header {
 .logos-elementos {
   display: flex;
   flex-direction: row;
-  gap: 85px;
+  gap: 8.5rem;
 }
 
 .logo {
-  width: 80px;
+  width: 8rem;
 }
 
 header h1 {
-  font-size: 55px;
+  font-size: 5.5rem;
   font-family: 'Press Start 2P', cursive;
   font-weight: 400;
   color: #fff;
 }
 
+/* *************** Padrão Conteudo **************** */
+
 .subtitulo {
-  background-color: #ee741a;
-
   text-align: center;
-
-  padding-block: 15px;
+  padding-block: 1.5rem;
 }
 
 .subtitulo h2 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+.conteudo {
+  padding-block: 2.5rem;
+  padding-inline: 5rem;
+}
+
+.conteudo p {
+  font-size: 2rem;
+}
+
+.escolha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+
+  padding-block: 4rem;
+}
+
+.num-escolha h3 {
+  font-size: 2.3rem;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
+  color: #fff;
+}
+
+.num-escolha h5 {
+  font-size: 1.5rem;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+
+  padding-inline: 8rem;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+button {
+  font-size: 2.5rem;
+  font-family: 'Odibee Sans', cursive;
+  border-radius: 1rem;
+  border-color: #fff;
+  cursor: pointer;
+
+  padding-inline: 0.7rem;
+  padding-block: 0.5rem;
+}
+
+/* *************** Conteudo Fogo **************** */
+
+.conteudo-fogo .subtitulo {
+  background-color: #ee741a;
+}
+
+.botao-fogo {
+  background-color: #ee741a;
+}
+
+.botao-fogo:hover,
+.botao-fogo:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #ee741a;
+  transform: translateY(-0.25em);
+}
+
+/* *************** Conteudo Agua **************** */
+
+.botao-agua {
+  background-color: #45abe1;
+}
+
+.botao-agua:hover,
+.botao-agua:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #45abe1;
+  transform: translateY(-0.25em);
+}
+
+/* *************** Conteudo Terra **************** */
+
+.botao-terra {
+  background-color: #10990b;
+}
+
+.botao-terra:hover,
+.botao-terra:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #10990b;
+  transform: translateY(-0.25em);
+}
+
+/* *************** Conteudo Ar **************** */
+
+.botao-ar {
+  background-color: #ffee5b;
+}
+
+.botao-ar:hover,
+.botao-ar:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #ffee5b;
+  transform: translateY(-0.25em);
 }
