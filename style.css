@@ -147,6 +147,9 @@ button {
 }
 
 /* *************** Conteudo Terra **************** */
+.conteudo-terra .subtitulo {
+  background-color: #10990b;
+}
 
 .botao-terra {
   background-color: #10990b;
@@ -159,6 +162,9 @@ button {
 }
 
 /* *************** Conteudo Ar **************** */
+.conteudo-ar .subtitulo {
+  background-color: #ffee5b;
+}
 
 .botao-ar {
   background-color: #ffee5b;
