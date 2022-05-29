@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Press+Start+2P&family=Shadows+Into+Light&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +11,24 @@ header {
   justify-content: space-evenly;
   align-items: center;
 
+  padding-block: 30px;
+
   background-color: black;
 }
 
+.logos-elementos {
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
+}
+
 .logo {
-  width: 100px;
+  width: 80px;
 }
 
 header h1 {
-  font-size: 70px;
+  font-size: 55px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
   color: #fff;
 }
