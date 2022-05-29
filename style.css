@@ -32,3 +32,16 @@ header h1 {
   font-weight: 400;
   color: #fff;
 }
+
+.subtitulo {
+  background-color: #ee741a;
+
+  text-align: center;
+
+  padding-block: 15px;
+}
+
+.subtitulo h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}
