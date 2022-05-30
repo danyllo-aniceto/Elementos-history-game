@@ -63,6 +63,8 @@ header h1 {
 .conteudo {
   padding-block: 2.5rem;
   padding-inline: 5rem;
+
+  height: 35rem;
 }
 
 .conteudo p {
@@ -73,11 +75,11 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 3rem;
   background-color: black;
 
   padding-block: 4rem;
-  position: absolute;
+  position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
@@ -174,4 +176,26 @@ button {
 .botao-ar:focus {
   box-shadow: 0 0.5em 0.5em -0.4em #ffee5b;
   transform: translateY(-0.25em);
+}
+
+@media (max-width: 1050px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .escolha .botoes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao-fogo,
+  .botao-agua,
+  .botao-terra,
+  .botao-ar {
+    width: 28rem;
+  }
 }
