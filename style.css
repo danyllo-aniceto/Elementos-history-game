@@ -214,6 +214,10 @@ button {
   header h1 {
     font-size: 4rem;
   }
+
+  .num-escolha h5 {
+    display: none;
+  }
 }
 
 @media (max-width: 800px) {
@@ -253,10 +257,6 @@ button {
   }
 
   .num-escolha h3 {
-    font-size: 1.5rem;
-  }
-
-  .num-escolha h5 {
     font-size: 1.5rem;
   }
 
@@ -311,10 +311,6 @@ button {
     font-size: 1rem;
   }
 
-  .num-escolha h5 {
-    font-size: 1rem;
-  }
-
   button {
     font-size: 1.5rem;
     border-radius: 2rem;
@@ -328,6 +324,6 @@ button {
   .botao-agua,
   .botao-terra,
   .botao-ar {
-    width: 18rem;
+    width: 22rem;
   }
 }
