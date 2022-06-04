@@ -43,6 +43,10 @@ header {
   gap: 8.5rem;
 }
 
+.logos-elementos-unidos {
+  display: none;
+}
+
 .logo {
   width: 8rem;
 }
@@ -184,11 +188,31 @@ button {
   transform: translateY(-0.25em);
 }
 
+/* ****************** Responsivo **************** */
+
 @media (max-width: 1050px) {
   header {
     display: flex;
     flex-direction: column;
     gap: 2.2rem;
+  }
+
+  header .logos-elementos {
+    display: none;
+  }
+
+  header .logos-elementos-unidos {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  header .logo {
+    width: 6rem;
+  }
+
+  header h1 {
+    font-size: 4rem;
   }
 }
 
@@ -203,5 +227,107 @@ button {
   .botao-terra,
   .botao-ar {
     width: 28rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header .logos-elementos-unidos {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+
+  header .logo {
+    width: 4rem;
+  }
+
+  header h1 {
+    font-size: 2.8rem;
+  }
+
+  .escolha {
+    gap: 1.5rem;
+
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .num-escolha h3 {
+    font-size: 1.5rem;
+  }
+
+  .num-escolha h5 {
+    font-size: 1.5rem;
+  }
+
+  .botoes {
+    gap: 1rem;
+  }
+
+  button {
+    font-size: 2rem;
+    border-radius: 2rem;
+
+    padding-inline: 0.3rem;
+    padding-block: 0.2rem;
+  }
+
+  .conteudo {
+    padding-block: 1.8rem;
+    padding-inline: 2.5rem;
+  }
+
+  .subtitulo {
+    padding-block: 1rem;
+  }
+
+  .subtitulo h2 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    padding-block: 2rem;
+  }
+
+  header .logos-elementos-unidos {
+    gap: 2rem;
+  }
+
+  header .logo {
+    width: 3rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .escolha {
+    gap: 1rem;
+  }
+
+  .num-escolha h3 {
+    font-size: 1rem;
+  }
+
+  .num-escolha h5 {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+  }
+
+  .subtitulo h2 {
+    font-size: 0.5rem;
+  }
+
+  .botao-fogo,
+  .botao-agua,
+  .botao-terra,
+  .botao-ar {
+    width: 18rem;
   }
 }
