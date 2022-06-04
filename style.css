@@ -16,7 +16,13 @@ html,
 body {
   width: 100%;
   height: 100%;
-  position: relative;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* *************** Padrão Cabeçalho **************** */
@@ -63,8 +69,12 @@ header h1 {
 .conteudo {
   padding-block: 2.5rem;
   padding-inline: 5rem;
+  flex: 1;
+  overflow: auto;
+}
 
-  height: 35rem;
+.altura-conteudo {
+  height: 800px;
 }
 
 .conteudo p {
@@ -79,10 +89,6 @@ header h1 {
   background-color: black;
 
   padding-block: 4rem;
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
 }
 
 .num-escolha h3 {
