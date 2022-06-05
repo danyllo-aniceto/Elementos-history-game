@@ -79,6 +79,9 @@ header h1 {
 
 .altura-conteudo {
   height: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .conteudo p {
