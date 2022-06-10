@@ -81,7 +81,7 @@ header h1 {
   height: 800px;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 1rem;
 }
 
 .conteudo p {
