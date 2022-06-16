@@ -25,6 +25,11 @@ body {
   flex-direction: column;
 }
 
+i {
+  font-weight: 800;
+  color: rgb(162, 47, 197);
+}
+
 /* *************** Padrão Cabeçalho **************** */
 header {
   display: flex;
